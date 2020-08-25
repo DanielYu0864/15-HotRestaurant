@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DanielYu0864/15-HotRestaurant/issues"
   },
-  "homepage": "https://github.com/DanielYu0864/15-HotRestaurant#readme"
+  "homepage": "https://github.com/DanielYu0864/15-HotRestaurant#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
