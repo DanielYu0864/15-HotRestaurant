@@ -1,14 +1,15 @@
 const table = require("../data/table");
 const waitlist = require("../data/waitinglist");
 
-const data = function(app) {
+
+module.exports = function(app) {
 
     app.get("/api/tables", function(req, res) {
         res.json(table);
     });
 
     app.get("/api/waitlist", function(req, res) {
-        res.json(table);
+        res.json(waitlist);
     });
 
     app.post("/api/tables", function(req,res) {
